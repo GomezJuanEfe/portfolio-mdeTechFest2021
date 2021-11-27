@@ -4,9 +4,91 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/mobile.css">
+  <link rel="stylesheet" media="(min-width: 780px)" href="styles/style.css">
   <title>🚀 Juan Felipe Gomez - Portafolio</title>
 </head>
 <body>
+  <div class="filter"></div>
+  <div class="header-bar">
+    <nav>
+      <div class="menu-wrap">
+        <input type="checkbox" class="toggler">
+        <div class="hamburger">
+          <div></div>
+        </div>
+        <div class="menu">
+          <div>
+            <div>
+              <ul>
+                <li><a href="#main">Inicio</a></li>
+                <li><a href="#photo">Acerca de mi</a></li>
+                <li><a href="#footer">Contacto</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <header class="header">
+      <div class="name">
+        <h1>Juan Felipe</h1>
+      </div>
+    </header>
+  </div>
   
+  <main id="main">
+    <div class="introdution section">
+      <h2 class="title inner-element">
+        Me llamo Juan Felipe Gómez Ramírez. Soy una persona con una curiosidad voraz. 
+      </h2>
+      <h3 class="subtitle inner-element">
+        Hace unos años empecé a estudiar desarrollo web en internet por medio de video tutoriales, plataformas de educación online y la gran comunidad del desarrollo.
+        Acompáñame te cuento más de esta historia...
+      </h3>
+    </div>
+    <div id="photo" class="photo section">
+      <div class="photo__img inner-element">
+        <img src="./img/photo.jpg" alt="personal photo">
+      </div>
+      <div class="photo__p inner-element" >
+        <p class="paragraph inner-element">Vivo en Medellín, pero gran parte de mi día a día me la paso detrás de una pantalla, navegando en las profundidades de un increíble mundo llamado internet; visitando otros lugares, conociendo gente nueva o aprendiendo algo diferente.</p>
+        <p class="paragraph">
+          Allí he encontrado una comunidad increíble que está dispuesta a colaborar, enseñar y a ayudarte a escalar profesionalmene.
+        </p>
+      </div>
+    </div>
+    <div class="video section">
+      <div class="video__text">
+        <h2 class="title inner-element">Medellín Tech Fest 2021</h2>
+        <p class="paragraph inner-element">
+          Con este proyecto estoy participando para ser una de los 10 finalistas del Medellín Tech Fest 2021, que se premiará en el C4TA - CIUDADELA PARA LA 4ta REVOLUCIÓN INDUSTRIAL el 27 de noviembre.
+        </p>
+      </div>
+      <div class="video__frame">
+        <iframe class="frame" width="560" height="315" src="https://www.youtube.com/embed/V0HDZvNq790" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </main>
+
+  <footer id="footer" class="section">
+    <div class="social">
+      <p class="center-P inner-element ">Redes sociales</p>
+      <ul>
+        <a href="https://github.com/GomezJuanEfe">
+          <li class="git-hub paragraph"></li>
+          <span class="paragraph">GitHub</span>
+        </a>
+        <a href="https://twitter.com/GomezJuanEfe">
+          <li class="twitter paragraph"></li>
+          <span class="paragraph">Twitter</span>
+        </a>
+      </ul>
+    </div>
+  </footer>
+  <script src="./index.js"></script>
 </body>
 </html>

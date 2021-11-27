@@ -1,0 +1,41 @@
+.title {
+  text-align: justify;
+  font-size: var(--h1-size);
+}
+
+.subtitle {
+  text-align: justify;
+  font-size: var(--subtitle-size);
+  font-weight: lighter;
+}
+
+.paragraph {
+  text-align: justify;
+  font-size: var(--p-size);
+  line-height: 32px;
+}
+
+.photo {
+  flex-direction: row;
+  gap: 26px;
+}
+
+
+.photo__img {
+  min-width: 390px;
+  width: 60vh;
+}
+
+.photo__img img {
+  width: 100%;
+}
+
+.section {
+  padding: 5vw 15vw 5vw;
+}
+
+.frame {
+  width: 100%;
+  min-height: 600px;
+  background-size: cover;
+}

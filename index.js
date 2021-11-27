@@ -1,0 +1,1 @@
+alert('Hola, bienvenido!\n\nEste proyecto está adaptado para que se pueda visualizar en diferentes dispositivos. Te invito a probarlo!\n\nEn la parte de abajo encontrarás mis redes sociales, sígueme y déjame un comentario.');
